@@ -8,6 +8,12 @@
     @include('partials.js')
 </head>
 <body>
+    <div class="row">
+            @include('partials.header')
 
+        <div class="col m12">
+            @yield('content')
+        </div>
+    </div>
 </body>
 </html>
